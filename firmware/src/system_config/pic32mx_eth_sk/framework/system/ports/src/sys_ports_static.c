@@ -61,9 +61,10 @@ void SYS_PORTS_Initialize(void)
     PLIB_PORTS_ChangeNoticeEnable(PORTS_ID_0);
     
     
-    /* PORT D Initialization */
-    PLIB_PORTS_DirectionOutputSet( PORTS_ID_0, PORT_CHANNEL_D,  SYS_PORT_D_TRIS ^ 0xFFFF);
-    PLIB_PORTS_OpenDrainEnable(PORTS_ID_0, PORT_CHANNEL_D, SYS_PORT_D_ODC);
+    /* PORT B Initialization */
+    //PLIB_PORTS_DirectionOutputSet( PORTS_ID_0, PORT_CHANNEL_B,  SYS_PORT_D_TRIS ^ 0xFFFF);
+    PLIB_PORTS_DirectionOutputSet( PORTS_ID_0, PORT_CHANNEL_B,  0x0080);
+    PLIB_PORTS_OpenDrainEnable(PORTS_ID_0, PORT_CHANNEL_B, SYS_PORT_D_ODC);
     
 }
 

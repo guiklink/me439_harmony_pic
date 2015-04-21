@@ -162,7 +162,7 @@ void APP_Tasks ( void )
         case APP_STATE_BLINK_LED:
         {
             /* Toggle LED */
-            BSP_LEDToggle(BSP_LED_3);
+            BSP_LEDToggle(7);
 
             /* Put the application back to the count state */
             appData.state = APP_STATE_COUNT;

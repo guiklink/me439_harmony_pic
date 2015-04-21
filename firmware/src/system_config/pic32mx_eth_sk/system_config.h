@@ -77,8 +77,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 // *****************************************************************************
 /* Clock System Service Configuration Options
 */
-#define SYS_CLK_FREQ                        80000000ul
-#define SYS_CLK_BUS_PERIPHERAL_1            80000000ul
+#define SYS_CLK_FREQ                        40000000
+#define SYS_CLK_BUS_PERIPHERAL_1            40000000
 #define SYS_CLK_CONFIG_PRIMARY_XTAL         8000000ul
 #define SYS_CLK_CONFIG_SECONDARY_XTAL       32768ul
    
